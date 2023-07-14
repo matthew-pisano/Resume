@@ -3,5 +3,6 @@
 *.fls
 *.log
 *.out
+*.sty
 *.synctex.gz
 archive
