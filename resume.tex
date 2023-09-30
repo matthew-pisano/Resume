@@ -1,8 +1,9 @@
-\documentclass[11pt]{article}
+\documentclass[12pt]{article}
 \nocite{*}
 \usepackage{newtxtext,newtxmath}
 
 \usepackage{graphics}
+\usepackage{tcolorbox}
 \usepackage{color}
 \usepackage[margin=0.5in]{geometry}
 \usepackage[hyphens]{url}
@@ -18,6 +19,7 @@
 \usepackage[normalem]{ulem}
 \usepackage{titling}
 \usepackage{hyperref}
+\usepackage{floatrow}
 \setlength{\droptitle}{-8em}
 
 %\titlespacing\section{0pt}{8pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
@@ -30,11 +32,76 @@
 \pagenumbering{gobble}
 
 \title{}
-\author{\textbf{Matthew Thomas Pisano}\\
-    \href{mailto:matthewpisano14@gmail.com}{matthewpisano14@gmail.com}\\
-    \href{https://www.linkedin.com/in/matthew-pisano/}{linkedin.com/in/matthew-pisano}\\(845)-706-0677} 
+\author{\textbf{\LARGE Matthew Thomas Pisano}} 
 \date{}
 
 \begin{document}
-    \include{resumeContent.tex}
+\pagestyle{plain}
+
+\begin{tcolorbox}[width=\linewidth, sharp corners=all, colback=white!90!green, colframe=black]
+    
+    \begin{center}
+        \textbf{\LARGE Matthew Thomas Pisano}\\
+        \vspace{0.1in}
+        (845)-706-0677 \hspace*{0.3in}
+        \href{mailto:matthewpisano14@gmail.com}{matthewpisano14@gmail.com} \hspace*{0.5in}
+        \href{https://www.linkedin.com/in/matthew-pisano/}{LinkedIn}
+    \end{center}
+    
+\end{tcolorbox}
+
+\vspace{0.1in}
+
+\hspace*{-0.3in}
+\textbf{Career Objective:} To create novel research into NLP and artificial intelligence alignment strategies.
+
+\vspace{0.1in}
+
+\hspace*{-0.3in}
+\textbf{GitHub:} \href{https://github.com/matthew-pisano}{matthew-pisano} Many of my open-source projects and contributions.
+
+\hspace*{-0.3in}
+\textbf{Portfolio Website:} \href{https://matthewpisano.com}{matthewpisano.com} for a more detailed look at my notable projects and research.
+
+\section*{Skills and Experience:}
+\begin{itemize}
+    \itemsep0em
+    \item \textbf{Machine Learning (2 Years):} Transformer models, prompt engineering, RL, NLP, ASR.
+    \item \textbf{Software Development (3 Years):} DevOps in a professional, team setting, CI/CD. 
+    \item \textbf{Python Programming (5 Years):} Professional and research projects, PyTorch, transformers.
+    \item \textbf{AWS (4 Years):} Cloudformation, EC2, Lambda, S3.
+    \item \textbf{Java Programming (5 Years):} Application and Android development.
+    \item \textbf{Web Development (5 Years):} React.js, Node.js, responsive design, DB management.
+    \item \textbf{Additional Experience:} C++, SQL, Ethereum and Algorand Networks.
+    \item \textbf{Awards and Certifications:} Eagle Scout, Vigil Honor, and Red Cross CPR/AED.
+\end{itemize}
+
+\section*{Research and Publications:}
+\begin{itemize}
+    \itemsep0em
+    
+    \item \textbf{Moral High Ground: A Text-Based Games Benchmark for Moral Evaluation}.  A novel benchmark for evaluating the moral reasoning abilities of LLMs through conversational text-based games.  Submitted to \textit{ICLR} 2024.
+    
+    \item \textbf{PredictChain: Empowering Collaboration and Data Accessibility for AI in an Algorand Blockchain-based Marketplace}.  Research article on the development of \textit{PredictChain}, a decentralized machine learning marketplace.  Presented at \textit{ChainScience} 2023 \url{https://arxiv.org/abs/2307.15168}
+    
+    \item \textbf{Large-Scale Foundation Acoustic Modeling for Automatic Speech Recognition}, Sponsor: \textit{RPI AIRC Lab} under Prof. Mei Si. Investigation of improvements to current ASR and NLG techniques for usage in virtual agents.
+    
+\end{itemize}
+
+\section*{Higher Education:}
+\begin{itemize}
+    \itemsep0em
+    \item \textbf{Rensselaer Polytechnic Institute}, 110 8th St, Troy, NY. (\textit{2023-Present}) Master's degree in Computer Science, focus on artificial intelligence alignment and NLP.  4.0 GPA, awarded TA position and scholarship.
+    \item \textbf{SUNY New Paltz}, 1 Hawk Dr, New Paltz, NY. (\textit{2021-2022}) Bachelor's degree in Computer Science, Minor in Applied Mathematics, and undergraduate research. 4.0 GPA, and Outstanding Graduate honor.
+\end{itemize}
+
+\section*{Work Experience:}
+\begin{itemize}
+    \itemsep0em 
+    \item \textbf{IBM Research (through RPI)}, 1101 Kitchawan Rd, Yorktown Heights, NY: Research extern. (\textit{2023}) Research into large language model alignment using moral principles through fine-tuning on text-based games.  Research submitted to \textit{ICLR} 2024.
+    
+    \item \textbf{Cyber Guardian Consulting Group}, 63 John St, Kingston, NY: Software Developer. (\textit{2020-Present}) Extensive use of AWS, custom SaaS solutions, full stack web development, backup and restoration software, development in Python, PowerShell, and Javascript frameworks.
+    
+    \item \textbf{Rensselaer Polytechnic Institute}, 110 8th St, Troy, NY: Computer Science Teaching Assistant. (\textit{2023-Present}) Provide students with assistance, grade assignments for the \textit{Principles of Software} and \textit{Data Structures} classes.
+\end{itemize}
 \end{document}
