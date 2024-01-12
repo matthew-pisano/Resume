@@ -5,5 +5,5 @@
 *.out
 *.sty
 *.synctex.gz
-coverletter*
+*coverletter*
 archive
