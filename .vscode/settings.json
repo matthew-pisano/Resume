@@ -2,5 +2,7 @@
     "cSpell.words": [
         "interpretability",
         "Rensselaer"
-    ]
+    ],
+    "latex-workshop.formatting.latex": "latexindent",
+    "latex-workshop.latexindent.enabled": true
 }
